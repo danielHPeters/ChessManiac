@@ -23,10 +23,14 @@ public class Board {
     private PieceFactory factory = new PieceFactory();
 
     /**
-     *
+     * 
+     * @param color
+     * @param source
+     * @param destination 
      */
-    public void movePiece() {
-
+    public void movePiece(EColor color, Cell source, Cell destination) {
+        
+        
     }
 
     public void initPieces() {
