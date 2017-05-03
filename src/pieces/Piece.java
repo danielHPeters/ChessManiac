@@ -1,5 +1,6 @@
 package pieces;
 
+import chess.EColor;
 import chess.PathTrace;
 
 /**
@@ -8,10 +9,16 @@ import chess.PathTrace;
  */
 public abstract class Piece {
     
-    private int color;
+    private final EColor color;
     
-    PathTrace tracePaths(int sourceX, int sourceY, int destX, int destY){
-        return new PathTrace();
+    public Piece(EColor color){
+        this.color = color;
     }
+    
+    public EColor getColor(){
+        return this.color;
+    }
+    
+    abstract PathTrace tracePaths(int sourceX, int sourceY, int destX, int destY);
 
 }

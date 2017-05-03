@@ -16,16 +16,23 @@ public class Cell {
     /**
      * The color of this cell
      */
-    private int color;
+    private final EColor color;
+    
+    private final int x;
+    
+    private final int y;
     
     /**
      * Default constructor. Initializes the colol and piece of the cell
      * @param color
-     * @param piece 
+     * @param x
+     * @param y 
      */
-    public Cell(int color, Piece piece){
+    public Cell(EColor color, int x, int y){
         this.color = color;
-        this.piece = piece;
+        this.piece = null;
+        this.x = x;
+        this.y = y;
     }
 
     /**
