@@ -1,28 +1,20 @@
 package chess;
 
 import java.util.List;
+
 import pieces.Piece;
 
 /**
+ * Chess board.
  *
- * @author d.peters
+ * @author Daniel Peters
+ * @version 1.0
  */
 public class Board {
+  private Cell[][] cells;
+  private List<Piece> removedPieces;
 
-    /**
-     * Two dimensional array of cells containing which make up the board
-     */
-    private Cell[][] cells;
-    
-    /**
-     * 
-     */
-    private List<Piece> removedPieces;
-    
-    /**
-     * 
-     */
-    public void movePiece(){
-        
-    }
+  public void movePiece() {
+
+  }
 }

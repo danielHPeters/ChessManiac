@@ -1,8 +1,9 @@
 package pieces;
 
 /**
- *
- * @author d.peters
+ * Bishop piece.
+ * @author Daniel Peters
+ * @version 1.0
  */
 public class Bishop extends Piece {
 

@@ -1,9 +1,11 @@
 package pieces;
 
 /**
+ * King piece.
  *
- * @author d.peters
+ * @author Daniel Peters
+ * @version 1.0
  */
 public class King extends Piece {
-    
+
 }
