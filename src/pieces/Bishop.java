@@ -5,18 +5,19 @@ import chess.PathTrace;
 
 /**
  * Bishop piece.
+ *
  * @author Daniel Peters
  * @version 1.0
  */
 public class Bishop extends Piece {
 
-    public Bishop(EColor color) {
-        super(color);
-    }
+  public Bishop(EColor color) {
+    super(color);
+  }
 
-    @Override
-    PathTrace tracePaths(int sourceX, int sourceY, int destX, int destY) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+  @Override
+  PathTrace tracePaths(int sourceX, int sourceY, int destX, int destY) {
+    throw new UnsupportedOperationException("Not supported yet.");
+  }
 
 }

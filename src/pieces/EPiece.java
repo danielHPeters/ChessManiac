@@ -1,14 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package pieces;
 
 /**
+ * Enum of chess pieces.
  *
- * @author d.peters
+ * @author Daniel Peters
+ * @version 1.0
  */
 public enum EPiece {
-    KING, QUEEN, BISHOP, ROOK, KNIGHT, PAWN
+  KING, QUEEN, BISHOP, ROOK, KNIGHT, PAWN
 }
