@@ -10,7 +10,7 @@ import ch.peters.daniel.chess.model.pieces.*;
  * @version 1.0
  */
 public class PieceFactory {
-  public Piece createPiece(PieceType type, Colour color) {
+  public static Piece createPiece(PieceType type, Colour color) {
     Piece piece;
     switch (type) {
       case KING:
