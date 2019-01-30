@@ -6,7 +6,7 @@ import ch.peters.daniel.chess.logic.PathTrace;
 /**
  * Bishop piece.
  *
- * @author Daniel Peters <daniel.peters.ch@gmail.com>
+ * @author Daniel Peters
  * @version 1.0
  */
 public class Bishop extends Piece {
